@@ -1,0 +1,36 @@
+body {
+    margin: 15px 15px 0px 15px;
+}
+
+/* header-nav section styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 60px 0px 60px;
+}
+
+nav > .nav-series  {
+    display: flex;
+    justify-content: space-around;
+}
+.nav-series a{
+    text-decoration: none;
+    margin-right: 25px;
+}
+.p-name {
+    color: #3A3A3A;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.nav-series a {
+    color: #3A3A3A;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
