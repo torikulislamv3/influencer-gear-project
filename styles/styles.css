@@ -91,3 +91,38 @@ font-weight: 700;
     border-radius: 50%;
     background-color: lightgray;
 }
+/* main section one styles */
+
+
+.main-section-one {
+    margin: 50px 60px 0px 135px;
+    text-align: center;
+    height: 50px;
+    width: 70%;
+    border: 1px solid black;
+    border: none;
+}
+.main-section-one img {
+    padding-right: 15px;
+    text-align: center;
+}
+
+
+
+
+
+/* responsive layout styles */
+
+/* mobile responsive */
+
+@media screen and (max-width:576px) {
+    nav, .header-cam-section, .main-section-one {
+        margin: 0;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .main-section-one img {
+        padding: 45px;
+    }
+}
